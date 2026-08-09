@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-09T19:19:45Z",
+  "generated_utc": "2026-08-09T19:20:12Z",
   "runner": "github-actions/ubuntu-latest",
   "results": [
     {
@@ -7,16 +7,16 @@
       "url": "https://broadbandmap.fcc.gov/nbm/map/api/published/filing",
       "status": 403,
       "error": "HTTPError 403",
-      "sample": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;broadbandmap&#46;fcc&#46;gov&#47;nbm&#47;map&#47;api&#47;published&#47;filing\" on this server.<P>\nReference&#32;&#35;18&#46;706c3817&#46;1786303183&#46;8ce13a0e\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;706c3817&#46;1786303183&#46;8ce13a0e</P",
-      "seconds": 0.14
+      "sample": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;broadbandmap&#46;fcc&#46;gov&#47;nbm&#47;map&#47;api&#47;published&#47;filing\" on this server.<P>\nReference&#32;&#35;18&#46;1353d117&#46;1786303211&#46;967a16d3\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;1353d117&#46;1786303211&#46;967a16d3</P",
+      "seconds": 0.06
     },
     {
       "name": "fcc_bdc_asof",
       "url": "https://broadbandmap.fcc.gov/nbm/map/api/national_map_process/nbm_get_as_of_dates",
       "status": 403,
       "error": "HTTPError 403",
-      "sample": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;broadbandmap&#46;fcc&#46;gov&#47;nbm&#47;map&#47;api&#47;national&#95;map&#95;process&#47;nbm&#95;get&#95;as&#95;of&#95;dates\" on this server.<P>\nReference&#32;&#35;18&#46;706c3817&#46;1786303184&#46;8ce13c1c\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#4",
-      "seconds": 0.07
+      "sample": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;broadbandmap&#46;fcc&#46;gov&#47;nbm&#47;map&#47;api&#47;national&#95;map&#95;process&#47;nbm&#95;get&#95;as&#95;of&#95;dates\" on this server.<P>\nReference&#32;&#35;18&#46;1353d117&#46;1786303211&#46;967a1704\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#4",
+      "seconds": 0.03
     },
     {
       "name": "fcc_geo_block",
@@ -26,7 +26,7 @@
       "content_range": "bytes 0-863/864",
       "bytes_read": 864,
       "sample": "{\"input\":{\"lat\":39.7392,\"lon\":-104.9903,\"censusYear\":\"2020\"},\"results\":[{\"block_fips\":\"080310020001009\",\"bbox\":[-104.991655,39.738444,-104.990236,39.74001],\"county_fips\":\"08031\",\"county_name\":\"Denver County\",\"state_fips\":\"08\",\"state_code\":\"CO\",\"state_name\":\"Colorado\",\"block_pop_2020\":0,\"amt\":\"AMT010\",\"bea\":\"BEA141\",\"bta\":\"BTA110\",\"cma\":\"CMA019\",\"eag\":\"EAG005\",\"ivm\":\"IVM019\",\"mea\":\"MEA033\",\"mta\":\"M",
-      "seconds": 0.49
+      "seconds": 0.18
     },
     {
       "name": "fcc_opendata_477",
@@ -36,7 +36,7 @@
       "content_range": null,
       "bytes_read": 347,
       "sample": "[{\"logrecno\":\"1\",\"provider_id\":\"69543\",\"frn\":\"0003723152\",\"providername\":\"Broken Bow TV Cable\",\"dbaname\":\"Broken Bow Cable\",\"holdingcompanyname\":\"Broken Bow TV Cable\",\"hoconum\":\"130168\",\"hocofinal\":\"Broken Bow TV Cable\",\"stateabbr\":\"OK\",\"blockcode\":\"400890987001002\",\"techcode\":\"42\",\"consumer\":\"1\",\"maxaddown\":\"6\",\"maxadup\":\"1.5\",\"business\":\"1\"}]\n",
-      "seconds": 0.62
+      "seconds": 0.36
     },
     {
       "name": "census_gazetteer_places",
@@ -46,7 +46,7 @@
       "content_range": "bytes 0-2047/1221402",
       "bytes_read": 2048,
       "sample": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000\ts\u0015Y$\ufffd.\ufffdN\ufffd\u0012\u0000\ufffd+c\u0000\u001b\u0000\u001c\u00002024_Gaz_place_national.txtUT\t\u0000\u0003\ufffd0\ufffdf\ufffd\r\ufffdfux\u000b\u0000\u0001\u0004y\u0003\u0000\u0000\u0004j-\u0000\u0000\ufffd]\ufffdr\u001cGr}n\u007f\u0005~@\u001du\ufffd\ufffdG\u0010\u042e\u0015AQ\ufffd\ufffd\r?:\u0006\ufffd\ufffd\ufffd\ufffd`\ufffd13\ufffd\ufffd\ufffdz\ufffdS\ufffdF7 \ufffdm\ufffd\ufffd\ufffd\u0014 \u00050\ufffdt\ufffd\ufffd\ufffd\ufffd\u031a\u007f|\ufffd\ufffd\ufffd\ufffd\ufffd\u001f\u007f\ufffd\ufffdv\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_n\u007f\u001c>]\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u007f|\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdO\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdo\ufffd\ufffd\ufffd\u007f\ufffd\ufffdS\ufffd\ufffd\ufffd\ufffdO\ufffd~\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd/\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd\u07ee?\u000eJ+\ufffd\u001a\ufffd\ufffd\u0244\ufffd\ufffd\ufffd\ufffd\ufffdasus\ufffd\ufffd\ufffd\ufffd\ufffdy\ufffd18e\ufffd`\ufffdIn0\ufffdH\u001a\u0528\ufffd\u001d\ufffd\u001d\ufffd\ufffd`\ufffd\ufffdC\ufffd7Q\u0019\ufffd\ufffd?\ufffd\ufffd\r\ufffd8\u0000\ufffd\ufffd*\ufffd\u0000\ufffdn\ufffdm\ufffd\ufffdo\ufffd\ufffdw\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\u0000\ufffd[\ufffd\ufffd\n\ufffd\u0320\ufffd\ufffd\ufffd\u0012\u000f~c\ufffd\u80cb*d<\u018b6\ufffd\u0013\u0010\u0017T\u0005\u0012\ufffdp\ufffd\ufffdy>\ufffdE\u0012b\ufffdhp\n\ufffd)<\ufffd`\ufffdh\ufffd\u0007\u0012\ufffd\ufffd'\u0013\ufffd\ufffd\ufffd\ufffd\u000f)\ufffd\u00125\u000e\ufffd\u0013\ufffd",
-      "seconds": 0.15
+      "seconds": 0.1
     },
     {
       "name": "census_zcta_place_xwalk",
@@ -56,7 +56,7 @@
       "content_range": "bytes 0-2047/9811563",
       "bytes_read": 2048,
       "sample": "\ufeffOID_ZCTA5_20|GEOID_ZCTA5_20|NAMELSAD_ZCTA5_20|AREALAND_ZCTA5_20|AREAWATER_ZCTA5_20|MTFCC_ZCTA5_20|CLASSFP_ZCTA5_20|FUNCSTAT_ZCTA5_20|OID_PLACE_20|GEOID_PLACE_20|NAMELSAD_PLACE_20|AREALAND_PLACE_20|AREAWATER_PLACE_20|MTFCC_PLACE_20|CLASSFP_PLACE_20|FUNCSTAT_PLACE_20|AREALAND_PART|AREAWATER_PART\n||||||||27890103022968|0101852|Anniston city|118685613|180468|G4110|C1|A|9974104|35266\n||||||||2789054",
-      "seconds": 0.07
+      "seconds": 0.05
     }
   ],
   "reachable": [
